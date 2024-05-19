@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     background-color: rgb(159, 241, 241);
+     text-align: center;
+}
+
+
+.container{
+    
+    display: flex;
+    justify-content: center;
+    width:80vh;
+    height: 80vh;
+    margin:0 auto;
+
+
+}
+.gamearea{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:1vmin;
+    margin:3%;
+    width:60vmin;
+    height:60vmin;
+    
+}
+
+.btn{
+    border-radius: 10%;
+    font-size: 2rem;
+    width:18vh;
+    height: 18vh;
+    background-color: rgb(41, 173, 129);
+    color: brown;
+
+}
+
+.reset{
+    
+    padding: 0.7rem;
+    font-size: 1rem;
+    border-radius: 10%;
+    background-color: rgb(101, 15, 15);
+    color: aliceblue;
+}
